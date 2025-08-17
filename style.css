@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background: aliceblue;
+    border-radius: 15px;
+    width: 500px;
+    /* height: 200px; */
+}
+
+h2 {
+    text-align: center;
+}
+
+.weatherForm {
+    display: flex;
+    padding: 0 20px;
+}
+
+.cityInput {
+    width: 75%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.icon-temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temperature {
+    font-size: 40px;
+    padding: 40px;
+}
+
+.icon img {
+    margin: 10px auto;
+    display: block;
+    background: aqua;
+    border-radius: 40px;
+
+}
+
+.btn {
+    width: 25%;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    background: aquamarine;
+}
+.details p span{
+    display: block;
+}
+#description {
+    text-align: center;
+    margin: 30px;
+    font-size: 27px;
+    color: red;
+}
+
+.details {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.details p {
+    background: bisque;
+    width: 190px;
+    padding: 11px;
+    font-size: 19px;
+    height: auto;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 13px;
+    margin: 0 10px;
+    display: block;
+}
