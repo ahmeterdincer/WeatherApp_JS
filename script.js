@@ -8,7 +8,7 @@ const description = document.getElementById("description");
 
 async function getWeather() {// şehirleri ayarlama
     try {
-        const apiKey = "08202a6bbdcfcf7dd253f9de5fcf166c";
+        const apiKey = "";
         const city = cityInput.value.trim();
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
         const response = await fetch(url);
